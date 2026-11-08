@@ -1,0 +1,4 @@
+{"cohort":"old","subject":"Projet Alpha","predicate":"statut","expected":"en préparation"}
+{"cohort":"old","subject":"Projet Alpha","predicate":"responsable","expected":"Équipe A"}
+{"cohort":"new","subject":"Projet Beta","predicate":"statut","expected":"en développement"}
+{"cohort":"new","subject":"Projet Gamma","predicate":"statut","expected":null}

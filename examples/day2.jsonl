@@ -1,0 +1,4 @@
+{"subject":"Projet Beta","predicate":"statut","value":"en développement","source_id":"source-A"}
+{"subject":"Projet Beta","predicate":"statut","value":"en développement","source_id":"source-B"}
+{"subject":"Projet Gamma","predicate":"statut","value":"en développement","source_id":"source-A"}
+{"subject":"Projet Gamma","predicate":"statut","value":"abandonné","source_id":"source-B"}

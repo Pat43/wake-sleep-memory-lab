@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wake-sleep-memory-lab"
+version = "0.1.0"
+description = "Auditable local-first wake/sleep memory consolidation lab inspired by continual-learning research"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Patrick Du Sablon"}]
+keywords = ["continual-learning", "sleep", "agents", "memory", "sqlite"]
+classifiers = ["Programming Language :: Python :: 3"]
+
+[project.scripts]
+wakesleep = "wakesleep.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
